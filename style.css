@@ -108,13 +108,14 @@ address i {
     font-size: 1.2rem;
     text-transform: uppercase;
     margin-bottom: 1rem;
-    border-bottom: 2px solid var(--primary-color);
+    border-bottom: 3px solid var(--primary-color);
     padding-bottom: 0.4rem;
+    font-weight: 500;
 }
 
 .resume-content p {
     line-height: 1.6;
-    color: var(--light-color);
+    color: black;
 }
 
 .resume-content ul {
@@ -169,13 +170,13 @@ address i {
 }
 
 .projects h3 {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-size: 1.1rem;
     margin-bottom: 0.3rem;
 }
 
 .projects article > p {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-weight: 600;
     margin-bottom: 0.75rem;
 }
@@ -209,13 +210,18 @@ address i {
 }
 
 .education h3 {
-    color: var(--secondary-color);
+    color: #0d5c56;
     font-size: 1rem;
     margin-bottom: 0.3rem;
 }
 
+.education .year{
+    color:#666666;
+}
+
 .education p {
     line-height: 1.5;
+    color: var(--secondary-color);
 }
 
 .skills ul {
@@ -225,7 +231,9 @@ address i {
 .skills li {
     margin-bottom: 0.7rem;
     padding-bottom: 0.4rem;
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 2px solid var(--primary-color);
+    display: inline-block;
+    margin-right: 40px;
 }
 
 .courses ul {
@@ -234,6 +242,7 @@ address i {
 
 .courses li {
     margin-bottom: 0.7rem;
+    color: #4e9d74;
 }
 
 .languages ul {
@@ -263,6 +272,8 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 0.8rem;
+    color:#0d5c56; 
+    font-weight: 500;
 }
 
 .languages p {
@@ -273,4 +284,12 @@ a:hover {
     color: var(--primary-color);
     font-size: 0.6rem;
     margin-left: 0.2rem;
+}
+
+.fa-linkedin {
+    color:#666666
+}
+
+.fa-solid {
+    color: #666666;
 }
